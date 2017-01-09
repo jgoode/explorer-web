@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.timeline li .tl-jump {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    margin-left: -16px;
+    z-index: 10;
+    font-style: italic;
+    line-height: 20px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.timeline li .tl-circ {
+    position: absolute;
+    top: 23px;
+    left: 50%;
+    text-align: center;
+    background: #ed8146;
+    background-image: url(../images/star.png);
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: -18px;
+    border: 0px solid #90acc7;
+    border-radius: 50%;
+    z-index: 10;
+    animation: pulse 2s infinite alternate;
+}

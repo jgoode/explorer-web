@@ -1,0 +1,122 @@
+extends layout
+
+block content
+    div.row
+        div.col-lg-12
+            h1.page-header Expedition&nbsp;-&nbsp;
+                span#expedition
+    div.row
+        div.col-lg-12
+
+    div.row
+        div.col-lg-3.col-md-6
+            div.panel.panel-primary
+                div.panel-heading
+                    div.row
+                        div.col-xs-3
+                            i.fa.fa-bullseye.fa-5x
+                        div.col-xs-9.text-right
+                            div.huge
+                                span#systemsVisited
+                            div Systems visited
+                a(href="#")
+                    div.panel-footer
+                        span.pull-left View Details
+                        span.pull-right
+                            i.fa.fa-arrow-circle-o-right
+                    div.clearfix
+
+        div.col-lg-3.col-md-6
+            div.panel.panel-green
+                div.panel-heading
+                    div.row
+                        div.col-xs-3
+                            i.fa.fa-globe.fa-5x
+                        div.col-xs-9.text-right
+                            div.huge
+                                span#objectsScanned
+                            div Objects Scanned
+                a(href="#")
+                    div.panel-footer
+                        span.pull-left View Details
+                        span.pull-right
+                            i.fa.fa-arrow-circle-o-right
+                    div.clearfix
+
+        div.col-lg-3.col-md-6
+            div.panel.panel-yellow
+                div.panel-heading
+                    div.row
+                        div.col-xs-3
+                            i.fa.fa-plane.fa-5x
+                        div.col-xs-9.text-right
+                            div.huge
+                                span#distanceTravelled
+                            div Distance travelled
+                a(href="#")
+                    div.panel-footer
+                        span.pull-left View Details
+                        span.pull-right
+                            i.fa.fa-arrow-circle-o-right
+                    div.clearfix
+
+        div.col-lg-3.col-md-6
+            div.panel.panel-red
+                div.panel-heading
+                    div.row
+                        div.col-xs-3
+                            i.fa.fa-battery-half.fa-5x
+                        div.col-xs-9.text-right
+                            div.huge
+                                span#fuelConsumed
+                            div Fuel Consumed
+                a(href="#")
+                    div.panel-footer
+                        span.pull-left View Details
+                        span.pull-right
+                            i.fa.fa-arrow-circle-o-right
+                    div.clearfix
+
+    div.row
+        div.col-lg-6
+            div.panel.panel-default
+                div.panel-heading Travel History
+                    i.fa.fa-plane.fa-fw
+                div.panel-body
+                    ul.timeline
+                        li(style="margin-bottom:49px")
+                            div.tl-circ
+                            div.tl-jump(style="top:100px;") 24.57 ly
+                            div.timeline-panel
+                                div.timeline-heading
+                                    h4.timeline-title Blaa Phoe WJ-A d88
+                                div.timeline-body
+                                    br
+                                    br
+
+                        li.timeline-inverted(style="margin-bottom:49px")
+                            div.tl-circ
+                            div.tl-jump(style="top:100px;") 24.57 ly
+                            div.timeline-panel
+                                div.timeline-heading
+                                    h4.timeline-title Blaa Phoe WJ-A d141
+                                div.timeline-body
+                                    br
+                                    br
+
+                        li.timeline(style="margin-bottom:49px")
+                            div.tl-circ
+                            div.tl-jump(style="top:100px;") 24.57 ly
+                            div.timeline-panel
+                                div.timeline-heading
+                                    h4.timeline-title Blaa Phoe WJ-A d141
+                                div.timeline-body
+                                    br
+                                    br
+
+
+
+
+
+block javascript
+    script(src='/javascripts/app/index.js')
